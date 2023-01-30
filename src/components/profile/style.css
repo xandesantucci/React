@@ -1,0 +1,24 @@
+.card-container {
+    color: white;
+    background-color:red;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.card-container img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 5px 5px 50px -7px #000000;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+
+}

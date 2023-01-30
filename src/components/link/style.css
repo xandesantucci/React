@@ -1,0 +1,10 @@
+.links span{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+span:hover{
+    font-weight: bold;
+    cursor: pointer;
+}

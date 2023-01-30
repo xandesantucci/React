@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 export const Link = ({text, destiny}) => {
     return(
-        <span onClick={destiny} target='_blank' rel="noopener noreferrer">{text}</span>
+        <a href={destiny} target='_blank' rel="noopener noreferrer">{text}</a>
     )
 }
 

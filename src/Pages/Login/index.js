@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import "../styles.css";
 import "../../App.css";
 import { useState } from "react";
-
+import { Link } from "../../components/link";
 import { Title } from "../../components/title";
 import { Inputs } from "../../components/inputs";
 import { Buttom } from "../../components/buttom";
@@ -76,6 +76,9 @@ export const Form = () => {
         <div className="buttons-container">
           <div className="buttons">
             <Buttom text="Entrar" aoClicar={goHome} />
+            <div className="links">
+              <Link text="Não é cadastrado?" destiny='https://www.google.com/' />
+            </div>
           </div>
           </div>
         </div>
